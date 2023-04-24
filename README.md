@@ -3,4 +3,4 @@
 hello world.
 
 ScreenShot of myFirstApp 
-[(/assets/helloworld.png")]
+[(/assets/helloworld.png)]
