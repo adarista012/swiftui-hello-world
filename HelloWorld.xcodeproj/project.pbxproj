@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		68992B1929F6D94B00ABF9F7 /* HelloWorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68992B1829F6D94B00ABF9F7 /* HelloWorldApp.swift */; };
-		68992B1B29F6D94B00ABF9F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68992B1A29F6D94B00ABF9F7 /* ContentView.swift */; };
 		68992B1D29F6D94C00ABF9F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68992B1C29F6D94C00ABF9F7 /* Assets.xcassets */; };
 		68992B2129F6D94C00ABF9F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68992B2029F6D94C00ABF9F7 /* Preview Assets.xcassets */; };
 		68992B2B29F6D94D00ABF9F7 /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68992B2A29F6D94D00ABF9F7 /* HelloWorldTests.swift */; };
 		68992B3529F6D94D00ABF9F7 /* HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68992B3429F6D94D00ABF9F7 /* HelloWorldUITests.swift */; };
 		68992B3729F6D94D00ABF9F7 /* HelloWorldUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68992B3629F6D94D00ABF9F7 /* HelloWorldUITestsLaunchTests.swift */; };
+		68992B4429F6D96900ABF9F7 /* HelloWorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68992B4329F6D96900ABF9F7 /* HelloWorldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		68992B1529F6D94B00ABF9F7 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68992B1829F6D94B00ABF9F7 /* HelloWorldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldApp.swift; sourceTree = "<group>"; };
-		68992B1A29F6D94B00ABF9F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		68992B1C29F6D94C00ABF9F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68992B1E29F6D94C00ABF9F7 /* HelloWorld.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HelloWorld.entitlements; sourceTree = "<group>"; };
 		68992B2029F6D94C00ABF9F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -45,6 +44,7 @@
 		68992B3029F6D94D00ABF9F7 /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		68992B3429F6D94D00ABF9F7 /* HelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITests.swift; sourceTree = "<group>"; };
 		68992B3629F6D94D00ABF9F7 /* HelloWorldUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		68992B4329F6D96900ABF9F7 /* HelloWorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				68992B1829F6D94B00ABF9F7 /* HelloWorldApp.swift */,
-				68992B1A29F6D94B00ABF9F7 /* ContentView.swift */,
+				68992B4329F6D96900ABF9F7 /* HelloWorldView.swift */,
 				68992B1C29F6D94C00ABF9F7 /* Assets.xcassets */,
 				68992B1E29F6D94C00ABF9F7 /* HelloWorld.entitlements */,
 				68992B1F29F6D94C00ABF9F7 /* Preview Content */,
@@ -259,8 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68992B1B29F6D94B00ABF9F7 /* ContentView.swift in Sources */,
 				68992B1929F6D94B00ABF9F7 /* HelloWorldApp.swift in Sources */,
+				68992B4429F6D96900ABF9F7 /* HelloWorldView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
